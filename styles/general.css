@@ -24,6 +24,7 @@ main {
 }
 
 .attribution {
+  font-size: 10px;
   text-align: center;
   padding: 10px 0;
   background-color: hsl(0, 0%, 12%);
