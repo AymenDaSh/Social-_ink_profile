@@ -1,0 +1,22 @@
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color:hsl(0, 0%, 8%);
+  font-family: Inter;
+}
+
+p,div{
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+
+.attribution{
+  position: absolute;
+  bottom: 0px;
+}
