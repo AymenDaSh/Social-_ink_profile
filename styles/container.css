@@ -47,6 +47,10 @@
   text-align: center;
   border-radius: 3px;
   cursor: pointer;
+  text-decoration:  none;
+}
+a.socials{
+  text-decoration:  none;
 }
 
 .socials:hover{
