@@ -5,10 +5,11 @@
   justify-content: center;
   align-items: center;
   background-color:hsl(0, 0%, 12%);
-  width: 280px;
+  width: 100%;
+  max-width: 280px;
   border-radius: 10px;
 
-  padding: 40px 30px 10px 30px;
+  padding: 30px 30px 30px 30px;
 }
 
 .profile-pic{
@@ -51,4 +52,11 @@
 .socials:hover{
   background-color: hsl(75, 94%, 57%);
   color: black;
+}
+
+
+@media (max-width: 480px) {
+  .container {
+    padding: 20px 15px 10px 15px;
+  }
 }
